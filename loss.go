@@ -1,11 +1,15 @@
 package main
 
-func BinaryCrossEntropy() {}
+const (
+	BinaryCrossEntropy      string = ""
+	CategoricalCrossEntropy string = ""
+	SparseCrossEntropy      string = ""
+	MeanSquareError         string = ""
+	MeanAbsoluteError       string = ""
+)
 
-func CategoricalCrossEntropy() {}
-
-func SparseCrossEntropy() {}
-
-func MeanSquareError() {}
-
-func MeanAbsoluteError() {}
+// func BinaryCrossEntropy() {}
+// func CategoricalCrossEntropy() {}
+// func SparseCrossEntropy() {}
+// func MeanSquareError() {}
+// func MeanAbsoluteError() {}

@@ -1,9 +1,5 @@
 package main
 
-type Optimizer interface {
-	//
-}
+type Optimizer func()
 
-func Adam() {
-
-}
+const Adam string = "adam"
